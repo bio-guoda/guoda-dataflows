@@ -4,8 +4,8 @@
 #
 # No delete flag yet. Need to ponder contigencies
 
-HDFS_PATH="/mnt/guoda-hdfs-nfs/home/mjcollin/"
-LOCAL_PATH="/storage/guoda-hdfs/home/mjcollin/"
+HDFS_PATH="/mnt/guoda-hdfs-nfs/home/"
+LOCAL_PATH="/storage/guoda-hdfs/home/"
 
 dt=`date --rfc-3339=seconds`
 echo "Starting sync at $dt"
