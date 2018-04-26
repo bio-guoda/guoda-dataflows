@@ -1,0 +1,12 @@
+pipeline {
+    agent { label 'hdfs_nfs' }
+    stages {
+        stage('Build') {
+            steps {
+                echo "Building..."
+                sh "./sync_hdfs_to_local.sh"
+                echo "Done."
+            }
+        }
+    }
+}
