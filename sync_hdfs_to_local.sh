@@ -2,7 +2,8 @@
 #
 # Syncronize NFS mounted HDFS file system to local computer
 #
-# No delete flag yet. Need to ponder contigencies
+# No delete flag yet. We will be "archiving" data from HDFS, which is too small for all things of interest,
+# to moose so leave things. Consider a more robust long-term data management plan.
 
 HDFS_PATH="/mnt/guoda-hdfs-nfs/home/"
 LOCAL_PATH="/storage/guoda-hdfs/home/"
